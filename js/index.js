@@ -11,6 +11,13 @@ while (j<10) {
 }
 
 do {
-    console.log("j = ",j);
-    j++;
+    // console.log("j = ",j);
+    // j++;
 } while (j<10);
+
+sayHello()
+{
+    console.log("Say hello from feature1");
+}
+
+sayHello();
